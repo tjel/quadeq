@@ -22,3 +22,6 @@ X1 = (-y + math.sqrt(delta)) / (2 * x)
 X2 = (-y - math.sqrt(delta)) / (2 * x)
 
 print 'Test case: For x = {}, y = {}, z = {} solutions are: {} and {}'.format(x,y,z,X1,X2)
+
+print 2x
+print(2x)
