@@ -3,9 +3,9 @@ import math
 import sys
 
 #a,b,c = input("Enter the coefficients of a, b and c separated by commas: ")
-a = sys.argv[1]
-b = sys.argv[2]
-c = sys.argv[3]
+a = float(sys.argv[1])
+b = float(sys.argv[2])
+c = float(sys.argv[3])
 
 d = b**2-4*a*c # discriminant
 
