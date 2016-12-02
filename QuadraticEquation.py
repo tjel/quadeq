@@ -6,6 +6,8 @@ a = float(sys.argv[1])
 b = float(sys.argv[2])
 c = float(sys.argv[3])
 
+print "Solving {}x^2+{}x+{} = 0".format(a,b,c)
+
 d = b**2-4*a*c # discriminant
 
 if d < 0:
