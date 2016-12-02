@@ -1,5 +1,5 @@
 #sudo: required
-#dist: trusty
+dist: trusty
 #dist: xenial
 language: python
 python:
@@ -8,11 +8,11 @@ python:
   - "3.2"
   - "3.3"
 #  - "nightly"
-install: true
+# install: true # no installation
 #install: python setup.py install
 #install: "pip install -r requirements.txt"
-script: echo foo
-#script: py.test
+#script: pytest # or py.test for Python versions 3.5 and below
+script: echo foo # avoid any tests
 notifications:
  email:
   recipients:
