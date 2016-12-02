@@ -22,6 +22,8 @@ install: true # no installation
 #script: pytest
 #script: echo foo # avoid any tests
 script: nosetests
+after_success:
+ - python QuadraticEquation.py
 notifications:
  email:
   recipients:
