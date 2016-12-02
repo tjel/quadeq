@@ -12,7 +12,7 @@ matrix:
 #  - python: "3.6-dev"
 #  - python: "nightly"
  allow_failures:
-  - pythonL "3.5"
+  - python: "3.5"
 #  - python: "3.6-dev"
 #  - python: "nightly"
 install: true # no installation
