@@ -10,8 +10,9 @@ python:
 #  - "nightly"
 install: true
 #install: python setup.py install
-#script: echo foo
-script: py.test
+#install: "pip install -r requirements.txt"
+script: echo foo
+#script: py.test
 notifications:
  email:
   recipients:
