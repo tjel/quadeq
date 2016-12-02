@@ -8,4 +8,4 @@ install: true
 #install: python setup.py install
 #
 #script: echo foo
-script: pytest
+script: py.test
