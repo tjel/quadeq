@@ -21,7 +21,7 @@ install: true # no installation
 #script: if [[ $TRAVIS_PYTHON_VERSION > 3.5 ]]; then pytest; else py.test; fi
 #script: pytest
 #script: echo foo # avoid any tests
-script: trial QuadraticEquation.py
+script: nosetests
 notifications:
  email:
   recipients:
