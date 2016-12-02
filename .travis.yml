@@ -1,6 +1,6 @@
 #sudo: required
-#dist: trusty
-dist: xenial
+dist: trusty
+#dist: xenial
 language: python
 matrix:
  include:
