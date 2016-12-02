@@ -1,6 +1,13 @@
+#!/usr/bin/python
 import math
+#import sys
 
 a,b,c = input("Enter the coefficients of a, b and c separated by commas: ")
+#a = sys.argv[0]
+#b = sys.argv[1]
+#c = sys.argv[2]
+
+print sys.argv
 
 d = b**2-4*a*c # discriminant
 
