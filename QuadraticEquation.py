@@ -1,4 +1,4 @@
-import math
+#import math
 
 a,b,c = input("Enter the coefficients of a, b and c separated by commas: ")
 
@@ -11,15 +11,16 @@ elif d == 0:
 
     print "This equation has one solutions: ", x
 else:
-    x1 = (-b - math.sqrt(d)) / (2 * a)
-
-    x2 = (-b + math.sqrt(d)) / (2 * a)
+#    x1 = (-b - math.sqrt(d)) / (2 * a)
+    x1 = 0
+    x2 = 0
+#    x2 = (-b + math.sqrt(d)) / (2 * a)
 
     print "This equation has two solutions: ", x1, " and", x2
 
 x ,y ,z = 2, 7, 3     
 delta = y**2-4*x*z
-X1 = (-y + math.sqrt(delta)) / (2 * x)
-X2 = (-y - math.sqrt(delta)) / (2 * x)
+#X1 = (-y + math.sqrt(delta)) / (2 * x)
+#X2 = (-y - math.sqrt(delta)) / (2 * x)
 
-print 'Test case: For x = {}, y = {}, z = {} solutions are: {} and {}'.format(x,y,z,X1,X2)
+#print 'Test case: For x = {}, y = {}, z = {} solutions are: {} and {}'.format(x,y,z,X1,X2)
