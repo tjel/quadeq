@@ -19,8 +19,8 @@ install: true # no installation
 #install: python setup.py install
 #install: "pip install -r requirements.txt"
 #script: pytest # or py.test for Python versions 3.5 and below
-script: if [[ $TRAVIS_PYTHON_VERSION > 3.5 ]]; then pytest; else py.test; fi
-#script: echo foo # avoid any tests
+#script: if [[ $TRAVIS_PYTHON_VERSION > 3.5 ]]; then pytest; else py.test; fi
+script: echo foo # avoid any tests
 notifications:
  email:
   recipients:
