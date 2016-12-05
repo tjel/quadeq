@@ -11,7 +11,7 @@ matrix:
 #  - python: "3.6-dev"
 #  - python: "nightly"
  allow_failures:
-  - python: "3.5"
+  - python: "2.7"
   - script: QuadraticEquation.py 2 11 b
 #  - python: "3.6-dev"
 #  - python: "nightly"
