@@ -11,8 +11,7 @@ matrix:
 #  - python: "3.6-dev"
 #  - python: "nightly"
  allow_failures:
-  - python: "2.7"
-  - script: QuadraticEquation.py 2 11 b
+  - python: "3.5"
 #  - python: "3.6-dev"
 #  - python: "nightly"
 install: true # no installation
@@ -25,6 +24,7 @@ install: true # no installation
 #script: nosetests
 script: 
  - python QuadraticEquation.py 2 10 1
+ - python QuadraticEquation.py 2 10 a
 #after_success:
 # - python QuadraticEquation.py 2,10,1
 notifications:
